@@ -11,11 +11,13 @@ public class CircleDetector : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.localScale += _scale;
+        StartCoroutine(ChangeSize());
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private IEnumerator ChangeSize()
     {
+        transform.localScale += _scale;
+        yield return new WaitForSeconds(0.05f);
         transform.localScale -= _scale;
     }
 }
