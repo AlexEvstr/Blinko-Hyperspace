@@ -1174,9 +1174,10 @@ GameObject:
   - component: {fileID: 568143969}
   - component: {fileID: 568143970}
   - component: {fileID: 568143971}
+  - component: {fileID: 568143972}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1277,12 +1278,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.412
+--- !u!114 &568143972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568143968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910ed5c8cd69f4ca694c24589fede6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottonBorder: {fileID: 1225587443}
 --- !u!1 &591976408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,9 +1516,10 @@ GameObject:
   - component: {fileID: 689496505}
   - component: {fileID: 689496506}
   - component: {fileID: 689496507}
+  - component: {fileID: 689496508}
   m_Layer: 0
   m_Name: 35
-  m_TagString: Untagged
+  m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1605,12 +1620,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.414
+--- !u!114 &689496508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689496504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910ed5c8cd69f4ca694c24589fede6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottonBorder: {fileID: 1225587443}
 --- !u!1 &780174435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,9 +2000,10 @@ GameObject:
   - component: {fileID: 962262963}
   - component: {fileID: 962262964}
   - component: {fileID: 962262965}
+  - component: {fileID: 962262966}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2075,12 +2104,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.412
+--- !u!114 &962262966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962262962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910ed5c8cd69f4ca694c24589fede6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottonBorder: {fileID: 1225587443}
 --- !u!1 &1014817540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,9 +2452,10 @@ GameObject:
   - component: {fileID: 1162434843}
   - component: {fileID: 1162434844}
   - component: {fileID: 1162434845}
+  - component: {fileID: 1162434846}
   m_Layer: 0
   m_Name: 35
-  m_TagString: Untagged
+  m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2513,12 +2556,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.414
+--- !u!114 &1162434846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162434842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910ed5c8cd69f4ca694c24589fede6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottonBorder: {fileID: 1225587443}
 --- !u!1 &1195584091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,9 +2586,10 @@ GameObject:
   - component: {fileID: 1195584092}
   - component: {fileID: 1195584093}
   - component: {fileID: 1195584094}
+  - component: {fileID: 1195584095}
   m_Layer: 0
   m_Name: 10
-  m_TagString: Untagged
+  m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2633,12 +2690,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.414
+--- !u!114 &1195584095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195584091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910ed5c8cd69f4ca694c24589fede6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottonBorder: {fileID: 1225587443}
 --- !u!1 &1225587440
 GameObject:
   m_ObjectHideFlags: 0
@@ -3192,9 +3262,10 @@ GameObject:
   - component: {fileID: 1395725096}
   - component: {fileID: 1395725097}
   - component: {fileID: 1395725098}
+  - component: {fileID: 1395725099}
   m_Layer: 0
   m_Name: 10
-  m_TagString: Untagged
+  m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3295,12 +3366,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.414
+--- !u!114 &1395725099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395725095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910ed5c8cd69f4ca694c24589fede6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottonBorder: {fileID: 1225587443}
 --- !u!1 &1435550653
 GameObject:
   m_ObjectHideFlags: 0

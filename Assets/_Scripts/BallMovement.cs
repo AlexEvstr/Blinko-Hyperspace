@@ -4,20 +4,6 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
-    //private Touch _touch;
-    //private float _movementSpeed = 0.005f;
-
-    //private void Update()
-    //{
-    //    if (Input.touchCount > 0)
-    //    {
-    //        _touch = Input.GetTouch(0);
-
-    //        if (_touch.phase == TouchPhase.Moved)
-    //            transform.position = new Vector2(transform.position.x + _touch.deltaPosition.x * _movementSpeed, transform.position.y);
-    //    }
-    //}
-
     private bool _grounded = false;
 
     private float _speed = 30.0f;
@@ -37,7 +23,6 @@ public class BallMovement : MonoBehaviour
             _grounded = true;
             GetComponent<Rigidbody2D>().freezeRotation = false;
         }
-        
     }
     private void OnCollisionExit2D(Collision2D collision)
     {

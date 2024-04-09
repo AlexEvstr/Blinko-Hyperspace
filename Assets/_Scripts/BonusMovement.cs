@@ -13,8 +13,7 @@ public class BonusMovement : MonoBehaviour
         transform.Translate(Vector2.right * Time.deltaTime * _speed);
         if (transform.position.x > 4 || transform.position.x < -4)
         {
-            _speed = -_speed;
-            
+            _speed = -_speed;    
         }
     }
 }

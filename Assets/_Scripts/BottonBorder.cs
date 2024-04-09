@@ -18,7 +18,7 @@ public class BottonBorder : MonoBehaviour
         StartCoroutine(SpawnBall());
     }
 
-    private IEnumerator SpawnBall()
+    public IEnumerator SpawnBall()
     {
         _ball.SetActive(false);
         yield return new WaitForSeconds(1.5f);
