@@ -16,6 +16,7 @@ public class Manager : MonoBehaviour
 
     private void Start()
     {
+        Screen.orientation = ScreenOrientation.Portrait;
         Vibration.Init();
         int vibro = PlayerPrefs.GetInt("vibro", 1);
         if (vibro == 1) IsVibroOn = true;
@@ -24,6 +25,7 @@ public class Manager : MonoBehaviour
 
     public void HomeButton()
     {
+        if (IsVibroOn) Vibration.VibratePeek();
         SceneManager.LoadScene("MenuScene");
     }
 

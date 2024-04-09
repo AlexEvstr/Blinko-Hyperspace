@@ -24,9 +24,11 @@ public class SkinsManager : MonoBehaviour
     {
         if (!_unlocked.activeInHierarchy)
         {
+            if (MenuController.IsVibroOn) Vibration.VibrateIOS(NotificationFeedbackStyle.Success);
             MenuController.TotalScore -= _price;
             SaveStatus();
         }
+        if (MenuController.IsVibroOn) Vibration.VibratePeek();
 
         PlayerPrefs.SetString("Ball", gameObject.name);
 
@@ -66,7 +68,7 @@ public class SkinsManager : MonoBehaviour
     {
         if (gameObject.transform.childCount == 4)
         {
-            gameObject.GetComponent<Image>().color = Color.green;
+            gameObject.GetComponent<Image>().color = Color.red;
         }
         else
         {
