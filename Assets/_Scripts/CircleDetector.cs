@@ -16,7 +16,7 @@ public class CircleDetector : MonoBehaviour
 
     private IEnumerator ChangeSize()
     {
-        Vibration.VibrateIOS(ImpactFeedbackStyle.Rigid);
+        if (Manager.IsVibroOn) Vibration.VibrateIOS(ImpactFeedbackStyle.Rigid);
         transform.localScale += _scale;
         yield return new WaitForSeconds(0.05f);
         transform.localScale -= _scale;

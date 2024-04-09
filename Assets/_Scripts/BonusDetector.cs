@@ -10,6 +10,9 @@ public class BonusDetector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            Score.TotalScore += int.Parse(gameObject.name);
+            PlayerPrefs.SetInt("TotalScore", Score.TotalScore);
+            if (Manager.IsVibroOn) Vibration.VibrateIOS(ImpactFeedbackStyle.Heavy);
             StartCoroutine(ChangeScale());
             StartCoroutine(bottonBorder.SpawnBall());
         }

@@ -19,7 +19,7 @@ public class BallMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Platform"))
         {
-            Vibration.VibrateIOS(ImpactFeedbackStyle.Light);
+            if (Manager.IsVibroOn) Vibration.VibrateIOS(ImpactFeedbackStyle.Light);
             _grounded = true;
             GetComponent<Rigidbody2D>().freezeRotation = false;
         }
